@@ -58,11 +58,6 @@ a:hover {
     text-decoration-color: rgb(3, 146, 46);
 }
 
-#icon {
-    width: 30px,
-    cursor: pointer;
-}
-
 .logo {
     font-size: 2rem;
     text-decoration: underline;
