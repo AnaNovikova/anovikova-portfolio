@@ -7,6 +7,11 @@
     padding: 0;
 }
 
+#icon {
+    width: 30px,
+    cursor: pointer;
+}
+
 body {
     font-family: 'Poppins', sans-serif;;
 }
