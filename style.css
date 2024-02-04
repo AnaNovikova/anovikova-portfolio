@@ -7,11 +7,6 @@
     padding: 0;
 }
 
-#icon {
-    width: 30px,
-    cursor: pointer;
-}
-
 body {
     font-family: 'Poppins', sans-serif;;
 }
@@ -61,6 +56,11 @@ a:hover {
     text-decoration: underline;
     text-underline-offset: 1rem;
     text-decoration-color: rgb(3, 146, 46);
+}
+
+#icon {
+    width: 30px,
+    cursor: pointer;
 }
 
 .logo {
