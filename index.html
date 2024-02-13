@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FONT AWESOME ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/css/styles.css" />
+
+    <title>Anastasiia Novikova</title>
+    <link rel="icon" type="image/x-icon" href="/assets/icon.png">
+  </head> 
+  <body>
+    <!--==================== STYLE SWITCHER ====================-->
+    <input type="radio" name="color" id="color-1" />
+    <input type="radio" name="color" id="color-2" />
+    <input type="radio" name="color" id="color-3" />
+    <input type="radio" name="color" id="color-4" />
+    <input type="radio" name="color" id="color-5" />
+    <input type="radio" name="color" id="color-6" />
+    <input type="radio" name="color" id="color-7" />
+    <input type="radio" name="color" id="color-8" />
+    <input type="radio" name="color" id="color-9" />
+    <input type="radio" name="color" id="color-10" />
+    <input type="checkbox" id="toggler">
+    <input type="checkbox" id="day-night">
+
+    <div class="style__switcher">
+      <label for="toggler" class="style__switcher-toggler">
+        <i class="fa-solid fa-gear fa-spin"></i>
+      </label>
+
+      <label for="day-night" class="style__switcher-theme">
+        <i class="fa-solid fa-sun "></i>
+        <i class="fa-solid fa-moon "></i>
+      </label>
+
+      <h3 class="style__switcher-title">Theme Color</h3>
+      
+      <div class="style__switcher-colors">
+        <label for="color-1" class="color-1 color"></label>
+        <label for="color-2" class="color-2 color"></label>
+        <label for="color-3" class="color-3 color"></label>
+        <label for="color-4" class="color-4 color"></label>
+        <label for="color-5" class="color-5 color"></label>
+        <label for="color-6" class="color-6 color"></label>
+        <label for="color-7" class="color-7 color"></label>
+        <label for="color-8" class="color-8 color"></label>
+        <label for="color-9" class="color-9 color"></label>
+        <label for="color-10" class="color-10 color"></label>
+        
+      </div>
+    </div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">Anastasiia</a>
+
+        <input type="checkbox" id="nav-toggler">
+
+        <label for="nav-toggler" class="nav__toggle">
+          <i class="fa-solid fa-square-caret-down"></i>
+        </label>
+        
+        <ul class="nav__list">
+           <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Home</a>
+           </li>
+
+           <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+           </li>
+           
+           <li class="nav__item">
+            <a href="#experience" class="nav__link">Experience</a>
+           </li>
+
+           <li class="nav__item">
+            <a href="#services" class="nav__link">Services</a>
+           </li>
+
+           <li class="nav__item">
+            <a href="#work" class="nav__link">Portfolio</a>
+           </li>
+
+           <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+           </li>
+        </ul>
+
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__small">Hello</span>
+            <h1 class="home__title"><span>I'm</span> Anastasiia Novikova<br /> 
+              a <span>Biomedical Researcher</span> 
+            </h1>
+
+            <p class="home__description">
+              As a motivated individual with a five years of lab experience, 
+              I've recently joined a prestigious research lab in France as a Research Engineer. 
+              I'm eager to apply my expertise in data analysis to contribute to groundbreaking medical research. 
+            </p>
+
+            <div class="home__btns">
+              <a href="#contact" class="btn">Hire Me</a>
+              <a href="#work" class="btn btn--transparent">Portfolio</a>
+            </div>
+          </div>
+
+          <div class="home__img-wrapper">
+            <img src="/assets/profile.png" alt="" class="home__img">
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__img-wrapper">
+            <img src="/assets/about.png" alt="" class="about__img">
+            <img src="/assets/about.png" alt="" class="about__img">
+            <img src="/assets/about.png" alt="" class="about__img">
+            <img src="/assets/about.png" alt="" class="about__img">
+          </div>
+          <div class="about__content">
+            <h2 class="section__title" data-title="Who am I?">
+              I'm Anastasiia Novikova, a Ukrainian Biomedical Researcher with passion for Data analysis 
+            </h2>
+
+            <p class="about__description"> 
+              As a passionate young scientist, my journey started in medical school, 
+              where I became captivated by disease mechanisms and immune responses. 
+              I pursued a biology degree to delve deeper into this field, aiming for a career in scientific research. 
+              Due to war in Ukraine, I moved to Spain, seizing the chance to deepen my involvement in biomedical research. 
+              Over the past five years, I've refined my skills and expertise through a blend of academic study and practical experience in both medicine and scientific research. 
+              This time has enriched my understanding of immunology and broadened my perspective through international exposure. 
+              Recently, I've felt a strong urge to master data analysis, believing it will complement my background in immunology and open doors to new opportunities in research and beyond.
+            </p>
+
+            <ul class="about__data grid">
+              <li class="data__item">
+                <h3 class="data__title">Name:</h3>
+                <span class="data__description">Anastasiia Novikova</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Age:</h3>
+                <span class="data__description">23 years (11.04.2000)</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">From:</h3>
+                <span class="data__description">Odesa, Ukraine</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Email:</h3>
+                <a href="mailto:anastasiia.novikova.ua@gmail.com" class="data__description about__link">anastasiia.novikova.ua@gmail.com</a>
+              </li>
+            </ul>          
+
+            <div class="about__bottom">
+              <a href="assets/Anastasiia _Novikova _CV.pdf" class="btn">Download CV</a>
+
+              <div class="about__social-links">
+                <a href="https://twitter.com/Highway_to_Bio" class="about__social-link">
+                  <i class="fa-brands fa-square-twitter"></i>
+                </a>
+
+                <a href="https://www.instagram.com/highway.to.biomedicine/" class="about__social-link">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/people/Anastasiia-Novikova/pfbid0ReeJtPJfeSP5bbDfBvUS7VdJ9NX5mEQkZCLiEmJbR5nXnPx4xMZ25eccSwDmQZnul/" class="about__social-link">
+                  <i class="fa-brands fa-square-facebook"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/anastasiia-novikova-590625197/" class="about__social-link">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="experience">
+        <h2 class="section__title title-center" data-title="My Journey">
+          Qualification
+        </h2>
+        <div class="resume__container container grid">
+          <div class="resume__group">
+            <h3 class="resume__heading">Education</h3>
+
+            <div class="resume__items">
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">University of Barcelona</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">M.Sc. in Biomedicine</h3>
+                    <spqn class="resume__date">2022 -> 2023</spqn>
+                  </div>
+                  
+                  <p class="resume__description">
+                    Amidst the conflict in Ukraine, I relocated to Spain and 
+                    commenced a Master's degree in biomedical field focusing on 
+                    <a href="https://web.ub.edu/en/web/estudis/w/masterdegree-m010b" class="highlight">
+                      "Basic and Translational Research in Human Pathologies"</a>
+                    .
+                  </p>
+                </div>
+              </div>
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Odesa National I.I. Mechnikov University</h3>
+                  <span class="resume__icon">-</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">B.Sc. in Biology</h3>
+                    <span class="resume__date">2017 -> 2021</span>
+                  </div>
+                  
+                  <p class="resume__description">
+                    After completing medical college, I applied to 
+                    <a href="https://onu.edu.ua/en/structure/faculty/bio" class="highlight">"Biological Faculty"</a>
+                    , supported by a government scholarship. I engaged in various research projects, 
+                    deepening my understanding of human physiology and biological processes.
+                  </p>
+                </div>
+              </div>
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Odesa Medical College</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">A.S. in Pharmacy</h3>
+                    <spqn class="resume__date">2015 -> 2017</spqn>
+                  </div>
+                  
+                  <p class="resume__description">
+                    For two years, I attended 
+                    <a href="https://mgu.edu.ua/en" class="highlight">"Odesa Medical College"</a>
+                     fully-paid by governmental scholarship of Ukraine, 
+                    specializing in pharmaceutical studies. 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="resume__group">
+            <h3 class="resume__heading">Experience</h3>
+
+            <div class="resume__items">
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Institute of Vision</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Research Engineer</h3>
+                    <spqn class="resume__date">2023 - present</spqn>
+                  </div>
+                  
+                  <p class="resume__description">
+                    Currently, I'm immersed in the 
+                    <a href="https://www.institut-vision.org/en/inflammation-in-neuronal-degeneration-and-vascular-remodelling.html" class="highlight">"Inflammation and Immunology in Retinal Diseases"</a>, 
+                    where I'm delving into immunology and developing my data analysis skills.
+                  </p>
+                </div>
+              </div>
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Josep Carreras Leukaemia Research Institute</h3>
+                  <span class="resume__icon">-</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Research Assistant</h3>
+                    <spqn class="resume__date">2022 -> 2023</spqn>
+                  </div>
+                  
+                  <p class="resume__description"> 
+                    Amidst my pursuit of a master's degree, 
+                    I embarked on a journey with an 
+                    <a href="https://www.carrerasresearch.org/en/research/leukemia-and-immuno-oncology" class="highlight">"Immuno-Oncology group"</a>. 
+                    This experience not only deepened my understanding of immunology 
+                    but also sparked a profound interest in data analysis.
+                  </p>
+                </div>
+              </div>
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Odesa Social Significance Disease Center</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Laboratory Technician</h3>
+                    <spqn class="resume__date">2019 -> 2022</spqn>
+                  </div>
+                  
+                  <p class="resume__description">
+                    My initial experience was gained at a tuberculosis 
+                    specialized laboratory in my hometown. Also, 
+                    I actively participated in the international project 
+                    <a href="https://www.innova4tb.com/" class="highlight">"INNOVA4TB"</a>.
+                </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section__title title-center" data-title="Services">
+        What I can do for You
+        </h2>
+
+        <div class="services__container container grid">
+          <div class="services__item">
+            <i class="fa-solid fa-wand-magic-sparkles services__icon"></i>
+
+            <h3 class="services__title">Statistical Analysis</h3>
+            <p class="services__description">
+              As a skilled biomedical researcher, 
+              I excel in analyzing numerical data to unveil valuable 
+              insights that inform decision-making and advance research endeavors.
+            </p>
+
+            <span class="services__no">01</span>
+          </div>
+          <div class="services__item">
+            <i class="fa-solid fa-laptop services__icon"></i>
+            
+            <h3 class="services__title">Data Visualization</h3>
+            <p class="services__description">
+              Specializing in data visualization for biomedical research, 
+              I translate complex data into clear visuals to enhance understanding and decision-making.
+            </p>
+            
+            <span class="services__no">02</span>
+          </div>
+          <div class="services__item">
+            <i class="fa-solid fa-chart-area services__icon"></i>
+            
+            <h3 class="services__title">Research Analysis</h3>
+            <p class="services__description">
+              I offer comprehensive research analysis services, 
+              utilizing advanced methods to extract insights and 
+              facilitate informed decision-making in biomedical research.
+            </p>
+            
+            <span class="services__no">03</span>
+          </div>
+          <div class="services__item">
+            <i class="fa-solid fa-pen-to-square services__icon"></i>
+            
+            <h3 class="services__title">Experimental Design</h3>
+            <p class="services__description"> 
+              Offering expert experimental design services, 
+              optimizing research methodologies to ensure robust data 
+              collection and analysis in biomedical studies.
+            </p>
+           
+            <span class="services__no">04</span>
+          </div>
+          <div class="services__item">
+            <i class="fa-solid fa-biohazard services__icon"></i>
+            
+            <h3 class="services__title">Epidemiological Analysis</h3>
+            <p class="services__description">
+              Specializing in epidemiological analysis, 
+              I use advanced techniques to investigate disease 
+              occurrence patterns and inform public health decisions.
+            </p>
+            
+            <span class="services__no">05</span>
+          </div>
+          <div class="services__item">
+            <i class="fa-regular fa-file-word services__icon"></i>
+            
+            <h3 class="services__title">Manuscript Writing</h3>
+            <p class="services__description">
+              Offering tailored manuscript writing services for your research findings, 
+              ensuring clear and concise communication of your biomedical discoveries for publication.
+            </p>
+            
+            <span class="services__no">06</span>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section">
+        <h2 class="section__title title-center" data-title="My Talent">
+          Professional Skills
+        </h2>
+
+        <div class="skills__container container grid">
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Experimental Techniques</h3>
+              <span class="skills__no">75 %</span>
+            </div>
+
+            <p class="skills__description">
+              
+Experienced in a variety of techniques such as immunostaining, gel electrophoresis, PCR, DNA extraction, and transfection.
+            </p>
+            
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 75%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">JavaScript</h3>
+              <span class="skills__no">65 %</span>
+            </div>
+
+            <p class="skills__description">
+              
+I utilize digital note-taking tools and apps to create, organize, and access notes seamlessly across various devices, enhancing work efficiency.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 65%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Imaging Analysis</h3>
+              <span class="skills__no">55 %</span>
+            </div>
+
+            <p class="skills__description">
+              Experience in interpreting immunostaining data using software like Imaris and Fiji, for diagnostic and research purposes in ophthalmology.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 55%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Teamwork</h3>
+              <span class="skills__no">55 %</span>
+            </div>
+            <p class="skills__description">
+              My collaborative teamwork style involves actively contributing ideas and sharing expertise within multidisciplinary research teams to achieve shared objectives effectively.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 55%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Adaptability</h3>
+              <span class="skills__no">65 %</span>
+            </div>
+
+            <p class="skills__description">
+              I possess a strong adaptability, allowing me to flexibly embrace new technologies, methodologies, 
+              and challenges in biomedical research, fostering continuous growth.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 65%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Continuing Education</h3>
+              <span class="skills__no">75 %</span>
+            </div>
+
+            <p class="skills__description">
+              I am dedicated to staying abreast of the latest advancements in 
+              biomedical research through continuous learning and engagement in professional development activities.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 75%;">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="works section" id="work">
+         <h2 class="section__title title-center" data-title="My Portfolio">
+          Recent Works
+        </h2>
+        <div class="work__container container grid">
+          <div class="work">
+            <img src="/assets/project-1.1.png">
+            <div class="layer">
+              <h3>"Tuberculosis Resilience Initiative"</h3>
+              <p>This project involved analyzing sequenced data, 
+                followed by a thorough examination. The aim was 
+                to identify genes associated with Mycobacterium Tuberculosis 
+                resistance and determine the geographical origins of strains 
+                circulating in the Odesa region, Ukraine.
+              </p>
+              <a href="https://github.com/AnaNovikova/projects"><i class="fa-solid fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/assets/project-3.1.png">
+            <div class="layer">
+              <h3>"Acute Myeloid Leukemia"</h3>
+              <p>
+                In this project, our main objectives were 
+                to uncover the correlation between genes 
+                associated with Acute Myeloid Leukemia and 
+                to analyze the impact of various karyotypes 
+                on the survival rates of children under 18 years of age.
+              </p>
+              <a href="https://github.com/AnaNovikova/projects"><i class="fa-solid fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PUBLICATIONS ====================-->
+      <section class="publications section">
+        <h2 class="section__title title-center" data-title="My Publications">
+          Meet My Works
+        </h2>
+
+        <div class="publications__container container grid">
+          <div class="publications__item">
+            <p class="publications__description">
+                Assessment of the influence on natrium chloride water on the course of toxic liver damage in the experiment
+            </p>
+            <div class="publications__data">
+              <div>
+                <h3 class="publications__name">S.Gushcha, A.Novikova, et al.</h3>
+                <span class="publications__identity">Pharmacology OnLine Archives. 2021. Vol.3. 698-706</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="publications__item">
+            <p class="publications__description">
+                Experimental studies of the extract of coniferous natural in various dilutions
+            </p>
+            <div class="publications__data">
+              <div>
+                <h3 class="publications__name">S.Gushcha, A.Novikova, et al.</h3>
+                <span class="publications__identity">Medical rehabilitation, balneology, physiotherapy. 2019. p35-40.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="publications__item">
+            <p class="publications__description">
+              Autochthonous microbiota of mineral natural waters of Ukraine as a health maintenance factor
+            </p>
+            <div class="publications__data">
+              <div>
+                <h3 class="publications__name">S.Gushcha, A.Novikova, et al.</h3>
+                <span class="publications__identity">International Scientific and Technical Conference 2021. p58-59.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="publications__item">
+            <p class="publications__description">
+                Experience in the use of halo-aerosol therapy in the rehabilitation of patients with bronchial asthma
+            </p>
+            <div class="publications__data">
+              <div>
+                <h3 class="publications__name">V.Stepanova, A.Novikova</h3>
+                <span class="publications__identity">PainMedicine Journal. 2018. Vol.3. No.2/1. p40.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title title-center" data-title="Get in Touch">
+          Contact Me
+        </h2>
+
+        <div class="contact__container container grid">
+          <div class="contact__details">
+
+            <div class="contact__item">
+              <i class="fa-solid fa-comments contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Telegram</h3>
+                <span class="contact__data">@Anastasiia_Novikova_UA</span>
+                
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <i class="fa-solid fa-phone contact__icon"></i>
+              <div>
+                <h3 class="contact__title">WatsApp</h3>
+                <span class="contact__data">+33671467398</span>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <i class="fa-sharp fa-solid fa-envelope-circle-check contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <a href="mailto:anastasiia.novikova.ua@gmail.com" class="data__description about__link">anastasiia.novikova.ua@gmail.com</a>
+              </div>
+            </div>
+          </div>
+
+          <form action="https://formspree.io/f/xayrerpn" method="POST" class="contact__form">
+            <div class="form__group">
+              <div class="form__input">
+                <input type="text" name="name" placeholder="Name" class="input__control" required>
+              </div>
+              <div class="form__input">
+                <input type="email" name="_replyto" placeholder="Email" class="input__control" required>
+              </div>
+            </div>
+            <div class="form__input">
+              <input type="text" name="subject" placeholder="Subject" class="input__control" required>
+            </div>
+            <div class="form__input">
+              <textarea name="message" placeholder="Message" cols="30" rows="10" class="input__control textarea" required></textarea>
+            </div>
+            <button type="submit" class="btn contact__btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <p class="footer__copyright">
+          &copy; 2024 Anastasiia. All Rights Reserved
+        </p>
+        
+        <div class="footer__social-links">
+            <a href="https://twitter.com/Highway_to_Bio" class="footer__social-link">
+              <i class="fa-brands fa-square-twitter"></i>
+            </a>
+
+            <a href="https://www.instagram.com/highway.to.biomedicine/" class="footer__social-link">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="https://www.facebook.com/people/Anastasiia-Novikova/pfbid0ReeJtPJfeSP5bbDfBvUS7VdJ9NX5mEQkZCLiEmJbR5nXnPx4xMZ25eccSwDmQZnul/" class="footer__social-link">
+              <i class="fa-brands fa-square-facebook"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/anastasiia-novikova-590625197/" class="footer__social-link">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+         </div>
+      </div>
+    </footer>
+  </body>
+</html>
